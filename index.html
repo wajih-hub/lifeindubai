@@ -129,30 +129,36 @@
 
          <!-- CONTACT SECTION WITH FORM -->
         <section class="section" id="contact">
-            <div class="container contact-box">
-                <div>
+            <div class="container contact-container">
+
+                <div class="contact-text">
                     <h2>Contact</h2>
-                    <p class="section-intro">
+                    <p>
                         Have a question about this “Life in Dubai” website or want to share feedback?
                         Send a message using the form, and I’ll get back to you as soon as I can.
                     </p>
-                    <p>Email (direct): <a href="mailto:yourname@cua.edu">yourname@cua.edu</a></p>
+
+                    <p>Email (direct):  
+                        <a href="mailto:yourname@cua.edu">yourname@cua.edu</a>
+                    </p>
                 </div>
+
+                <form class="contact-form">
+                    <label>Name</label>
+                    <input type="text" placeholder="Your Name">
         
-                <form class="contact-form" action="#" method="post">
-                    <label for="name">Name</label>
-                    <input id="name" name="name" type="text" required>
+                    <label>Email</label>
+                    <input type="email" placeholder="Your Email">
         
-                    <label for="email">Email</label>
-                    <input id="email" name="email" type="email" required>
-        
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" required></textarea>
+                    <label>Message</label>
+                    <textarea placeholder="Your Message"></textarea>
         
                     <button type="submit" class="btn-primary">Send Message</button>
                 </form>
+
             </div>
         </section>
+
 
 
     </main>
@@ -164,4 +170,5 @@
 
 
 </html>
+
 
